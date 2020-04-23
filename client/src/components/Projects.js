@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText } from 'react-mdl';
 
 
 class Projects extends Component {
@@ -19,12 +19,6 @@ class Projects extends Component {
             <CardText>
               This application uses the axios npm package to recommend the user anime based off of a genre of movie they like.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           {/* Project 2 */}
@@ -33,12 +27,6 @@ class Projects extends Component {
             <CardText>
               Nozama is a CRUD based application that lets you search for a book in the database, and purchase it if you so choose to. Similar to that of a regular online bookstore.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           {/* Project 3 */}
@@ -47,12 +35,6 @@ class Projects extends Component {
             <CardText>
               Expensy keeps track of all of your expenses made, and who made them. Perfect for focus on who bought what!
             </CardText>
-            <CardActions border>
-              <Button href>GitHub</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
         </div>
 

@@ -22,7 +22,7 @@ class About extends Component {
                   width: "100%",
                   border: "1px solid black",
                   padding: "10px",
-                  boxShadow: "1px 1px 5px 9px rgba(0,0,0,0.75)",
+                  boxShadow: "-1px 1px 10px 5px rgba(0,0,0,0.75)",
                   borderRadius: "25px",
                   fontSize: "20px",
                   fontWeight: "bold"
