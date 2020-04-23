@@ -1,15 +1,31 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import Nav from './components/Navbar/Navbar'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Layout, Header, Navigation, Content } from 'react-mdl';
+import Main from './components/Main';
+import { Link } from 'react-router-dom';
 
-function App() {
-  return (
-    <div>
-      <Nav/>
-      
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="demo-big-content">
+    <Layout>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Tyler Goodman</Link>} scroll>
+            <Navigation>
+                <Link to="/resume">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
+            </Navigation>
+        </Header>
+        <Content>
+            <div className="page-content" />
+            <Main/>
+        </Content>
+    </Layout>
+</div>
+
+    );
+  }
 }
 
 export default App;
