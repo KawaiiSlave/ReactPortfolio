@@ -47,7 +47,7 @@ class Resume extends Component {
               startYear={2019}
               endYear={2020}
               jobName="Homework, and Projects for school"
-              jobDescription="Ive done many assignments, and a few projects similar to how the Kanban style approach to working a real job would be working with other people"
+              jobDescription="Ive done many assignments, and a few projects similar to how the Kanban style approach to working a real job would be working with other people. I have a passion for learning new things."
             />
 
             <hr style={{ borderTop: "3px solid #e22947" }} />

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Container, Row, } from 'react-bootstrap';
 
+
+
 class About extends Component {
   render() {
     return (
@@ -11,9 +13,7 @@ class About extends Component {
               style={{
                 opacity: ".7",
                 width: "50%",
-                margin: "auto"
-                
-                
+                margin: "auto",
               }}
             >
               <h2
@@ -25,7 +25,7 @@ class About extends Component {
                   boxShadow: "-1px 1px 10px 5px rgba(0,0,0,0.75)",
                   borderRadius: "25px",
                   fontSize: "20px",
-                  fontWeight: "bold"
+                  fontWeight: "bold",
                 }}
               >
                 {" "}

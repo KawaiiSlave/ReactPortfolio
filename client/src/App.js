@@ -3,6 +3,8 @@ import './App.css';
 import { Layout, Header, Navigation, Content } from 'react-mdl';
 import Main from './components/Main';
 import { Link } from 'react-router-dom';
+import MainFooter from './components/MainFooter';
+
 
 class App extends Component {
   render() {
@@ -21,6 +23,7 @@ class App extends Component {
             <div className="page-content" />
             <Main/>
         </Content>
+        <MainFooter/>
     </Layout>
 </div>
 

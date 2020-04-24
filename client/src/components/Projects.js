@@ -21,13 +21,14 @@ class Projects extends Component {
             </CardText>
           </Card>
 
-          {/* Project 2 */}
+          {/* Project 2*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.pinimg.com/originals/67/18/22/671822c2f63dd5f65d8fd15c9710420b.jpg'}} >Project 2 Nozama</CardTitle>
             <CardText>
               Nozama is a CRUD based application that lets you search for a book in the database, and purchase it if you so choose to. Similar to that of a regular online bookstore.
             </CardText>
           </Card>
+
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>

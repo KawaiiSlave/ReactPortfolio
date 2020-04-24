@@ -42,7 +42,7 @@
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
+  height: 450px;
   background: white;
   color: black;
   margin-bottom: 20px;
@@ -114,3 +114,16 @@
   font-size: 5em;
   padding: 8px;
 }
+
+
+
+.divFooter {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
